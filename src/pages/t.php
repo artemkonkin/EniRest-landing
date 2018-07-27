@@ -92,7 +92,7 @@ if ($result=='ok') {
 
   // Email function
 
-  require 'lib/mailer/PHPMailerAutoload.php';
+  require 'assets/lib/mailer/PHPMailerAutoload.php';
 
 
   //Create a new PHPMailer instance
@@ -109,7 +109,7 @@ if ($result=='ok') {
   //Ask for HTML-friendly debug output
   $mail->Debugoutput = 'html';
   //Set the hostname of the mail server
-  $mail->Host = "mail.kinart.net";
+  $mail->Host = "mail.enirest.kg";
   //Set the SMTP port number - likely to be 25, 465 or 587
   $mail->Port = 465;
   //Set the encryption system to use - ssl or tls
@@ -117,19 +117,19 @@ if ($result=='ok') {
   //Whether to use SMTP authentication
   $mail->SMTPAuth = true;
   //Username to use for SMTP authentication
-  $mail->Username = "artemkonkin@kinart.net";
+  $mail->Username = "enirest@enirest.kg";
   //Password to use for SMTP authentication
-  $mail->Password = "netuser000_ws";
+  $mail->Password = "netuser000_as";
   //Set who the message is to be sent from
-  $mail->setFrom('artemkonkin@kinart.net');
+  $mail->setFrom('enirest@enirest.kg');
   //Set an alternative reply-to address
   //$mail->addReplyTo('info@kalaulym.kz');
   //Set who the message is to be sent to
-  $mail->addAddress('temakonkin@yandex.com');
+  $mail->addAddress('enirest.kg@gmail.com');
   //Set encoding
   $mail->CharSet = 'UTF-8';
   //Set the subject line
-  $mail->Subject = 'Новое сообщение с сайта alby.kg';
+  $mail->Subject = 'Новое сообщение с сайта enirest.kg';
   //Read an HTML message body from an external file, convert referenced images to embedded,
   //convert HTML into a basic plain-text alternative body
   //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));

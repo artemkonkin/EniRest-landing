@@ -72,7 +72,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #437F84,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -870,3 +870,102 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
+
+
+/* STYLES */
+
+$maincolor: #437F84;
+$gray: #F9F9F9; /* F9F9F9 */
+$darkgray: #767676;
+
+.img-top{
+  width: 100%;
+  height: auto;
+}
+
+.head-h{
+  font-weight: 900;
+  text-align: center;
+  color: $maincolor;
+  padding: 15px;
+}
+
+.sub-h{
+  font-weight: 900;
+  text-align: center;
+  color: $maincolor;
+  padding: 5px;
+}
+
+.social-ico{
+  height: 30px;
+  margin: 5px;
+  color: $maincolor;
+}
+
+.box-color{
+  background: $gray;
+}
+
+.num{
+  padding: 0;
+  margin: 0;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.icon-img{
+  width: 60px;
+}
+
+.txt-w{
+  text-align: center;
+  color: #767676;
+}
+
+.room{
+  width: 100%;
+  height: auto;
+}
+
+.nomer{
+  font-weight: 900;
+  text-align: center;
+  color: $maincolor;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.nomer-gray{
+  text-align: center;
+  color: $darkgray;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+b{
+  color: $maincolor;
+}
+
+.sale{
+  text-align: center;
+  color: $maincolor;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.feedback{
+  padding: 30px;
+  text-align: center;
+}
+
+.cont-form{
+  margin: 20px;
+}
+
+/* TXT */
+.txt-center{
+  text-align: center
+}
