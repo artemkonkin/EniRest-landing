@@ -57,3 +57,15 @@
           }
         });
       </script>
+
+
+              <div class="medium-6 small-12" style="">
+          <a href="">
+            <img src="assets/img/1.png" class="room" alt="">
+          </a>
+        </div>
+        <div class="medium-6 small-12" style="">
+          <a href="">
+            <img src="assets/img/2.png" class="room" alt="">
+          </a>
+        </div>

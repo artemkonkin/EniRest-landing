@@ -80,7 +80,7 @@ $foundation-palette: (
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #437f84;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -968,4 +968,25 @@ b{
 /* TXT */
 .txt-center{
   text-align: center
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+
+  .orbit-slide:nth-of-type(1) & {
+    background: rgb(52, 98, 102);
+  }
+
+  .orbit-slide:nth-of-type(2) & {
+    background: #66a6ac;
+  }
+
+  .orbit-slide:nth-of-type(3) & {
+    background: #2b646a;
+  }
+
+  .orbit-slide:nth-of-type(4) & {
+    background: #2a484b;
+  }
 }
